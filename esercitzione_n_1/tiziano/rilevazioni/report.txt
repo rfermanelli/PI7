@@ -1,0 +1,20 @@
+--- Stazione_Alfa ---
+Numero rilevazioni: 35
+Temperatura media: 22.48
+Anomalie temperatura: 14
+Anomalie CO2: 12
+Giorno più critico CO2: 28/09/2026
+
+--- Stazione_Gamma ---
+Numero rilevazioni: 34
+Temperatura media: 23.71
+Anomalie temperatura: 15
+Anomalie CO2: 9
+Giorno più critico CO2: 27/02/2026
+
+--- Stazione_Beta ---
+Numero rilevazioni: 31
+Temperatura media: 18.29
+Anomalie temperatura: 8
+Anomalie CO2: 6
+Giorno più critico CO2: 27/02/2025
