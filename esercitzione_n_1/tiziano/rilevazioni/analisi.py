@@ -3,8 +3,8 @@ from funzioni_io import crea_lista_stazioni
 
 def richiesta_soglie_utente():
     """Richiede in input le soglie temperatura e co2 da utilizzare in analisi e reportistica."""
-    soglia_temp = int(input("Immetti la soglia d'allarme della temperatura come numero intero: "))
-    soglia_co2 = int(input("Immetti la soglia d'allarme della concentrazione di co2 come numero intero: "))
+    soglia_temp = float(input("Immetti la soglia d'allarme della temperatura come numero: "))
+    soglia_co2 = float(input("Immetti la soglia d'allarme della concentrazione di co2 come numero: "))
     return soglia_temp, soglia_co2
 
 
