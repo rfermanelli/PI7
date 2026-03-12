@@ -120,8 +120,8 @@ def rileva_anomalie(dati, soglia_temp, soglia_co2):
     for r in dati:
         if r["temperatura"] > soglia_temp:
             anomalie.append(r)
-            if r["co2"] > soglia_co2:
-                anomalie.append(r)
+        if r["co2"] > soglia_co2:
+            anomalie.append(r)
 
     anomalie_ordinate = sorted(anomalie, key = lambda r: r["temperatura"],
     reverse = True
@@ -136,7 +136,7 @@ dati = carica_dati("rilevazionedati")
 miei_dati = dati
 
 def filtro_temperatura(dati, min_temp, max_temp):
-    range_T = list(filter(lambda r: min_temp <= r["min_temp"] <= max_temp,dati))
+    range_T = list(filter(lambda r: min_temp <= r["temperatura"] <= max_temp,dati))
     return stampa_dati(range_T)
 
 def filtro_co2(dati, min_co2, max_co2):
@@ -148,8 +148,8 @@ def filtro_pressione(dati, min_pres, max_pres):
     return(stampa_dati(range_P))
 
 def filtro_date(dati, data_inizio, data_fine):
-    data_inizio = (1-1-2025)
-    data_inizio = (10-4-2025)
+    data_inizio = (1, 1, 2025)
+    data_fine = (10, 4, 2025)
     range_d = list(filter(lambda r: data_inizio <= r["data"] <= data_fine, dati))
     return(stampa_dati(range_d))
 
@@ -162,11 +162,11 @@ def filtro_stazione(dati, stazione):
 # analisi temporale
 
 def giorno_temperatura_max(dati):
-    max_t = max(dati, key = lambda r: r["temp_max"])
+    max_t = max(dati, key = lambda r: r["temperatura"])
     return max_t["data"]
 
 def giorno_co2_max(dati):
-    max_c = max(dati, key=lambda x: x["co2_max"])
+    max_c = max(dati, key=lambda x: x["co2"])
     return max_c["data"]
 
 def stazione_variabilita_termica_max(dati):
