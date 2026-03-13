@@ -1,0 +1,8 @@
+ErroreLessicale alla riga 17: il padawan ha un maestro sbagliato | Token sconosciuto: sbagliato
+ErroreSintattico alla riga 18: ha il padawan un maestro | Token non valido alla posizione 1: atteso ARTICOLO, trovato VERBO ('ha')
+ErroreSintattico alla riga 19: padawan il ha maestro un | Token non valido alla posizione 1: atteso ARTICOLO, trovato SOSTANTIVO ('padawan')
+ErroreSintattico alla riga 20: il padawan maestro ha un | Token non valido alla posizione 3: atteso VERBO, trovato SOSTANTIVO ('maestro')
+ErroreSintattico alla riga 21: il padawan ha maestro un | Token non valido alla posizione 4: atteso ARTICOLO, trovato SOSTANTIVO ('maestro')
+ErroreSintattico alla riga 22: il padawan ha un | Numero di token non valido: attesi 5, ricevuti 4
+ErroreLessicale alla riga 23: ciao il padawan ha un maestro | Token sconosciuto: ciao
+ErroreSintattico alla riga 24: maestro padawan un il ha | Token non valido alla posizione 1: atteso ARTICOLO, trovato SOSTANTIVO ('maestro')

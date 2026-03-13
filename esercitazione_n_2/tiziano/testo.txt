@@ -1,0 +1,24 @@
+il padawan ha il padawan
+il padawan ha il maestro
+il padawan ha un padawan
+il padawan ha un maestro
+il maestro ha il padawan
+il maestro ha il maestro
+il maestro ha un padawan
+il maestro ha un maestro
+un padawan ha il padawan
+un padawan ha il maestro
+un padawan ha un padawan
+un padawan ha un maestro
+un maestro ha il padawan
+un maestro ha il maestro
+un maestro ha un padawan
+un maestro ha un maestro
+il padawan ha un maestro sbagliato
+ha il padawan un maestro
+padawan il ha maestro un
+il padawan maestro ha un
+il padawan ha maestro un
+il padawan ha un
+ciao il padawan ha un maestro
+maestro padawan un il ha
