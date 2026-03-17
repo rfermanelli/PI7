@@ -1,0 +1,7 @@
+Il padawan ha un maestro
+un maestro ha il padawan
+il maestro ha un maestro
+il padawan padawan ha un
+un padawan ha maestro
+il padawan ha un jedi
+
